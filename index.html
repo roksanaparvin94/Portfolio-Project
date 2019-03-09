@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<!-- Style Sheets -->
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css" >
+		
+		<style>
+			[id*="-error"]{
+				color:yellow;
+				float:left;
+			}
+		</style>
+		<script rel="script" src="js/jquery-3.3.1.min.js" ></script>
+		<script rel="script" src="js/custom.js" ></script>
+		
+		<title>Roksana Parvin</title>
+	</head>
+	<body>
+		<header id="home">
+			<!-- === Navbar === -->
+			<div class="navId">
+				<nav class="navbar navbar-dark navbar-expand-lg bg-transparent fixed-top">
+					<a class="navbar-brand text-decoraytion-none" href="#">
+					<img src="images/logo.jpg" alt="Logo"><span class="h3 text-uppercase text-white">Roksana</span></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarButton"><span class="navbar-toggler-icon "></span></button>
+					 <div class="collapse navbar-collapse" id="navbarButton">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active"><a class="nav-link text-uppercase px-4 " href="#home">Home <span class="sr-only">(current)</span></a></li> 
+							<li class="nav-item"><a class="nav-link text-uppercase px-4 " href="#about">About</a></li>
+							<li class="nav-item"><a class="nav-link text-uppercase px-4 " href="#services">Services</a></li>
+							<li class="nav-item"><a class="nav-link text-uppercase px-4 " href="#projects">Projects</a></li>
+							<li class="nav-item"><a class="nav-link text-uppercase px-4 " href="#contacts">Contacts</a></li>
+							<li class="nav-item"><a class="nav-link text-uppercase px-4 btn btn-primary" data-toggle="modal" data-target="#loginModal" href="#">Login</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<!-- === Header Image === -->
+			<div id="header">
+				<div class="content">
+					<div class="container">
+						<div class="row">
+							<div class="col-6 mt-5 col-custom">
+								<p class="text-uppercase text-warning my-1 pt-5">Introduction</p>
+								<h6 class="text-uppercase text-white mb-1">Hello,My name is Most. Roksana Parvin</h6>
+								<h3 class="text-uppercase text-warning mb-3">I'm a Programmer<h3>
+								<button class="text-uppercase btn btn-light ">My work</button>
+								<button class="text-uppercase btn btn-primary ">Hire Me</button>
+							</div>
+							<div class="image col-6 mt-5 pt-5">
+								<img src="images/me.jpg" class="img-fluid" alt="My Picture">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<!-- Login Modal -->
+		<div class="modal fade" id="loginModal">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="exampleModalCenterTitle">LogIn</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+					<form method="post" action="#">
+					  <div class="form-group">
+						<label for="email">Email address</label>
+						<input type="email" name="email" class="form-control" id="email" placeholder="Please insert your email" required>
+					  </div>
+					  <div class="form-group">
+						<label for="password">Password</label>
+						<input type="password" name="password" class="form-control" id="password" placeholder=" Enter Your Password" required>
+					  </div>
+					  <div class="form-group form-check">
+						<input type="checkbox" name="remember" class="form-check-input" id="remember">
+						<label class="form-check-label" for="remember">Remember Me</label>
+					  </div>
+					  <button type="submit" name="login" class="btn btn-primary">Submit</button>
+					</form>
+					<p class="text-primary float-right">New User <a class="text-danger" href="#">Registration</a></p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<main>
+		
+			<!-- === About Part === -->
+			<section id="about" class="py-5 mt-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 p-0 m-0 text-center">
+							<p class="text-uppercase m-0 text-primary">About Me</p>
+							<h2 class="text-uppercase ">WELCOME TO MY WEBSITE</h2>
+							<p class="text-muted my-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						</div>
+						<div class="col-md-4">
+							<p class="text-uppercase mt-3 mb-1">web design</p>
+							<div class="progress">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+						<div class="col-md-4">
+						<p class="text-uppercase mt-3 mb-1">PHP DEVELOPMENT</p>
+							<div class="progress">
+								<div class="progress-bar bg-warning" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+						<div class="col-md-4">
+						<p class="text-uppercase mt-3 mb-1">PHOTOGRAPHY</p>
+							<div class="progress">
+								<div class="progress-bar bg-secondary" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+						<div class="col-md-4">
+						<p class="text-uppercase mt-3 mb-1">BRANDING</p>
+							<div class="progress">
+								<div class="progress-bar bg-primary" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+						<div class="col-md-4">
+						<p class="text-uppercase mt-3 mb-1">MARKETING</p>
+							<div class="progress">
+								<div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+						<div class="col-md-4">
+						<p class="text-uppercase mt-3 mb-1">SEO</p>
+							<div class="progress">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</Section>
+			
+			<!-- === Services Part === -->
+			<section id="services" class="py-5 mt-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 p-0 m-0 text-center">
+							<p class="text-uppercase mt-5 text-primary">my serivces</p>
+							<h2 class="text-uppercase mb-5 text-white">What i do</h2>
+						</div>
+						<div class="col-md-4 mb-2 text-center">
+							<div class="card">
+							  <div class="card-body text-white rounded">
+									<i class=" text-warning fas fa-list mt-5 mb-5"></i>
+									<h4 class="card-subtitle mb-5 text-uppercase">PROFESSIONAL CODE</h4>
+									<p class="card-text mb-5 mx-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-2 text-center">
+							<div class="card">
+							  <div class="card-body text-white rounded">
+									<i class=" text-warning far fa-lightbulb mt-5 mb-5"></i>
+									<h4 class="card-subtitle mb-5 text-uppercase">CREATIVE IDEAS</h4>
+									<p class="card-text mb-5 mx-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-2 text-center">
+							<div class="card">
+							  <div class="card-body text-white rounded">
+									<i class=" text-warning far fa-clone mt-5 mb-5"></i>
+									<h4 class="card-subtitle mb-5 text-uppercase">SEO & MARKETING</h4>
+									<p class="card-text mb-5 mx-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-2 text-center">
+							<div class="card">
+							  <div class="card-body text-white rounded">
+									<i class=" text-warning far fa-heart mt-5 mb-5"></i>
+									<h4 class="card-subtitle mb-5 text-uppercase">User Friendly</h4>
+									<p class="card-text mb-5 mx-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-2 text-center">
+							<div class="card">
+							  <div class="card-body text-white rounded">
+									<i class=" text-warning fas fa-magic mt-5 mb-5"></i>
+									<h4 class="card-subtitle mb-5 text-uppercase">WEB DEVELOPMENT</h4>
+									<p class="card-text mb-5 mx-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-2 text-center">
+							<div class="card">
+							  <div class="card-body text-white rounded">
+									<i class=" text-warning fas fa-sliders-h mt-5 mb-5"></i>
+									<h4 class="card-subtitle mb-5 text-uppercase">Portfolio Options</h4>
+									<p class="card-text mb-5 mx-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</Section>
+			
+			<!-- === Projecs Part === -->
+			<section id="projects" class="py-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 p-0 m-0 text-center">
+							<p class="text-uppercase mt-5 text-primary">view all</p>
+							<h2 class="text-uppercase mb-0">my projects</h2>
+						</div>
+						<div class="col-md-4 mb-2">
+							<div class="card bg-dark text-white border-0 rounded-0">
+							  <img src="images/g1.jpg" class="card-img" alt="gallery">
+							  <div class="card-img-overlay projectBox">
+								<button class="btn btn-dark py-2 w-100 align-self-center text-uppercase rounded-0 ">View</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-2">
+							<div class="card bg-dark text-white border-0 rounded-0">
+							  <img src="images/g2.jpg" class="card-img" alt="gallery">
+							  <div class="card-img-overlay projectBox">
+								<button class="btn btn-dark  py-2 w-100 align-self-center text-uppercase rounded-0">View</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-2">
+							<div class="card bg-dark text-white border-0 rounded-0">
+							  <img src="images/g3.jpg" class="card-img" alt="gallery">
+							  <div class="card-img-overlay projectBox">
+								<button class="btn btn-dark py-2 w-100 align-self-center text-uppercase rounded-0">View</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-2">
+							<div class="card bg-dark text-white border-0 rounded-0">
+							  <img src="images/g4.jpg" class="card-img" alt="gallery">
+							  <div class="card-img-overlay projectBox">
+								<button class="btn btn-dark py-2 w-100 align-self-center text-uppercase rounded-0">View</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-2">
+							<div class="card bg-dark text-white border-0 rounded-0">
+							  <img src="images/g5.jpg" class="card-img" alt="gallery">
+							  <div class="card-img-overlay projectBox">
+								<button class="btn btn-dark py-2 w-100 align-self-center text-uppercase rounded-0">View</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-2">
+							<div class="card bg-dark text-white border-0 rounded-0">
+							  <img src="images/g6.jpg" class="card-img" alt="gallery">
+							  <div class="card-img-overlay projectBox">
+								<button class="btn btn-dark py-2 w-100 align-self-center text-uppercase rounded-0">View</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-2">
+							<div class="card bg-dark text-white border-0 rounded-0">
+							  <img src="images/g7.jpg" class="card-img" alt="gallery">
+							  <div class="card-img-overlay projectBox">
+								<button class="btn btn-dark py-2 w-100 align-self-center text-uppercase rounded-0">View</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-2">
+							<div class="card bg-dark text-white border-0 rounded-0">
+							  <img src="images/g8.jpg" class="card-img" alt="gallery">
+							  <div class="card-img-overlay projectBox">
+								<button class="btn btn-dark py-2 w-100 align-self-center text-uppercase rounded-0">View</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-2">
+							<div class="card bg-dark text-white border-0 rounded-0">
+							  <img src="images/g9.jpg" class="card-img" alt="gallery">
+							  <div class="card-img-overlay projectBox">
+								<button class="btn btn-dark py-2 w-100 align-self-center text-uppercase rounded-0">View</button>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</Section>
+			
+			<!-- === Review Part === -->
+			<section id="review">
+				<div class="container">
+					<div class="row py-5">
+						<div class="col-md-3 col-6 text-center mb-4">
+							<i class="far fa-lightbulb text-warning mt-5 mb-3"></i>
+							<h2 class="text-white mb-3">48</h2>
+							<h6 class="text-white mb-5">Project Done</h6>
+						</div>
+						<div class="col-md-3 col-6 text-center mb-4">
+							<i class="far fa-heart text-warning mt-5 mb-3"></i>
+							<h2 class="text-white mb-3">42</h2>
+							<h6 class="text-white mb-5">Satisfied Client</h6>
+						</div>
+						<div class="col-md-3 col-6 text-center">
+							<i class="fas fa-magic text-warning mt-5 mb-3"></i>
+							<h2 class="text-white mb-3">56</h2>
+							<h6 class="text-white mb-5">Awards</h6>
+						</div>
+						<div class="col-md-3 col-6 text-center">
+							<i class="far fa-smile text-warning mt-5 mb-3"></i>
+							<h2 class="text-white mb-3">78</h2>
+							<h6 class="text-white mb-5">Happy Clients</h6>
+						</div>
+					</div>
+				</div>
+			</Section>
+			
+			<!-- === Contact Part === -->
+			<section id="contacts">
+				<div class="container">
+					<div class="row py-5">
+						<div class="col-12 p-0 m-0 text-center">
+							<p class="text-uppercase mt-5 text-primary">Find Me</p>
+							<h2 class="text-uppercase text-white">contact me now</h2>
+						</div>
+					</div>
+					<form name="contactForm" class="text-center" onsubmit="if(confirm('Do you want to submit It?'))
+					     { if(myvalidation()== false){ return false; }}else{event.preventDefault(); return false;}">
+						<div class="form-row">
+							<div class="col-md-6 col-12">
+								<input type="name" name="name" value="" class="form-control mb-2" placeholder="Enter Your Name" onfocus="myFocus(this)">
+								<span id="name-error"></span>
+								<input type="email"  name="email" value="" class="form-control mb-2" placeholder="Enter Your Email" onfocus="myFocus(this)">
+								<span id="email-error"></span>
+								<input type="phone" name="phone" value="" class="form-control mb-2" placeholder="Enter Your Phone" onfocus="myFocus(this)">
+								<span id="phone-error"></span>
+							</div>
+							<div class="col-md-6 col-12 pb-2">
+								<textarea type="message" name="message" value ="" class= "form-control m-0 h-100" placeholder="Enter Your message" onfocus="myFocus(this)"></textarea>
+								<span id="message-error"></span>
+							</div>
+						</div>
+						<div class="col-12">
+							<button type="submit" class="btn btn-primary text-uppercase px-4 py-2 mt-3">submit</button>
+							
+						</div>
+					</form>
+					<div class="row py-5 text-center">
+						<div class="col-md-4 col-12">
+							<i class="fas fa-map-marked-alt text-warning mb-2"></i>
+							<h6 class="text-white mb-2 text-capitalize">address</h6>
+							<p class="text-white">panthapath,Dhaka-1205</p>
+						</div>
+						<div class="col-md-4 col-12">
+							<i class="far fa-envelope text-warning mb-2"></i>
+							<h6 class="text-white mb-2 text-capitalize">Email</h6>
+							<p class="text-white">parvinroksana15@gmail.com</p>
+						</div>
+						<div class="col-md-4 col-12">
+							<i class="fas fa-mobile-alt text-warning mb-2"></i>
+							<h6 class="text-white mb-2 text-capitalize">Phone</h6>
+							<p class="text-white">+1234567891</p>
+						</div>
+					</div>
+			</Section>
+		</main>
+		
+		<!-- === Footer Part === -->
+		<footer class="py-4 bg-light" >
+			<div class="container">
+				<div class="row">
+					<div id="copy-right" class="col-md-6 col-12 mb-2">
+						&copy;2019 | All Rights Reserved By | Most. Roksana Parvin 
+					</div>
+					<div id="social-media" class="col-md-6 col-12 text-center">
+						<ul>
+							<a href="#" ><i class="fab fa-facebook-f px-3"></i></a>
+							<a href="#" ><i class="fab fa-twitter px-3"></i></a>                   
+							<a href="#" ><i class="fab fa-google-plus-g px-3"></i></a>                    
+							<a href="#" ><i class="fab fa-linkedin px-3"></i></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="upper">
+				<i class="fas fa-chevron-up bg-dark p-3"></i>
+			</div>
+		</footer>
+		<script>
+		
+		</script>
+	<!-- Scripts -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	
+	
+	</body>
+</html>

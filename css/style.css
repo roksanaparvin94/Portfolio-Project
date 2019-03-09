@@ -1,0 +1,164 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background:#;
+	font-family:sans-serif;
+}
+i{
+	font-size:2.5rem;
+}
+
+/* === Header Part === */
+#header .content{
+	background:url('../images/background.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+#header .col-custom{
+	padding-top:200px;
+}
+
+/* === Navbar === */
+.navId ul li a:hover{
+	background:white;
+	display:block;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:blue;
+}
+.active a {
+    background-color: black;
+    color: #5b98f3 !important;
+}
+.bg-transparent {
+    background-color:#0f1f2fcc!important;
+}
+
+/* === projects part === */
+#projects .card-img:hover{
+    background-color:rgba(211,211,211,0.1);;
+}
+#projects img{
+	height:275px;
+	width:100%;
+}
+#projects .card .btn{
+    margin-top:195px;
+	display:none;
+	
+}
+#projects .card .projectBox:hover{
+    background:#163fca63;
+}
+#projects .card:hover .btn{
+    margin-top:195px;
+	display:block;
+}
+/* === services Part === */
+#services{
+	background-image:url('../images/serve.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+#services .card{
+	background-color:#ffffff47;
+}
+#services .card:hover{
+	background-color:#2196f3;
+}
+
+
+/* === review Part === */
+#review{
+	background-image:url('../images/stats.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+
+/* === Contact Part === */
+#contacts{
+	background-image:url('../images/contact.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	
+}
+#contacts .form-control{
+	background:transparent;
+}
+
+/* === Footer Part === */
+#social-media i{
+	font-size:1.25rem;
+		
+}
+#social-media a i:hover{
+	font-size:1.25rem;
+	color:white;	
+}
+.bg-light{
+	 background-color: #376e8e52!important;
+}
+/* === Scroll Button === */
+
+
+#upper{
+	position:fixed;
+	right:25px;
+	bottom:25px;
+	padding-top:10px;
+	display:none;
+}
+
+#upper i{
+    font-size: 1rem;
+    color: white;
+}
+
+/* ===== Device View ==== */
+@media(max-width:1100px){
+	.container{
+		width:100%;
+	}
+}
+@media(max-width:576px){
+	.container{
+	width:100%;
+	}
+	
+	.container .image img{
+		height:252px;
+		padding-top:60px;
+		
+	}
+	.col-custom .btn{
+	   font-size:.75rem;
+	  
+	}
+	.col-custom p{
+		 font-size:.75rem;
+	}	
+	.col-custom h6{
+		 font-size:.9rem;
+	}	
+	.col-custom h3{
+		font-size:1.25rem;
+	   margin-bottom:10px;
+	}
+	#header .col-custom{
+	padding-top:65px;
+	}
+	#copy-right{
+		text-align:center;
+	}
+	#social-media a i:hover{
+		color:white;
+	}
+
+}
+	
