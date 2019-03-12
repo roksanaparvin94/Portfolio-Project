@@ -21,9 +21,16 @@ i{
 	padding-top:200px;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-top: 162px;
+	float:right;
+}
+
 /* === Navbar === */
 .navId ul li a:hover{
-	background:white;
+	background:black;
 	display:block;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -127,13 +134,13 @@ i{
 	}
 }
 @media(max-width:576px){
-	.container{
+	.col-md-3 .col-md-4 .col-md-6 .col-6 .col-12{
 	width:100%;
 	}
 	
 	.container .image img{
 		height:252px;
-		padding-top:60px;
+		padding-top:78px;
 		
 	}
 	.col-custom .btn{
