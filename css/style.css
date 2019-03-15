@@ -139,12 +139,12 @@ i{
 	}
 	
 	.container .image img{
-		height:252px;
+		height:246px;
 		padding-top:78px;
 		
 	}
 	.col-custom .btn{
-	   font-size:.75rem;
+	   font-size:.95rem;
 	  
 	}
 	.col-custom p{
@@ -160,6 +160,12 @@ i{
 	#header .col-custom{
 	padding-top:65px;
 	}
+	
+	#header .col-custom .btn{
+		font-size:.110rem;
+	   padding:7px 15px;
+	}
+	
 	#copy-right{
 		text-align:center;
 	}
