@@ -28,9 +28,7 @@ i{
     padding-top: 162px;
 	float:right;
 }
-.mt-5, .my-5 {
-    margin-top: 10rem!important;
-}
+
 /* === Navbar === */
 .navId ul li a:hover{
 	background:black;
