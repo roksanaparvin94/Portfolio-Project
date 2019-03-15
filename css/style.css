@@ -143,9 +143,8 @@ i{
 		padding-top:78px;
 		
 	}
-	.col-custom .btn{
-	   font-size:.95rem;
-	  
+	.col-custom .btn {
+    font-size: 0.5rem;
 	}
 	.col-custom p{
 		 font-size:.75rem;
