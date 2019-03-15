@@ -18,16 +18,7 @@ i{
 	background-size:cover;
 
 }
-#header .col-custom{
-	padding-top:200px;
-}
 
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-    padding-top:0px;
-	float:right;
-}
 
 /* === Navbar === */
 .navId ul li a:hover{
