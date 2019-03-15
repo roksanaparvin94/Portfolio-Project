@@ -17,7 +17,16 @@ i{
 	background-size:cover;
 
 }
+#header .col-custom{
+	padding-top:200px;
+}
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-top: 162px;
+	float:right;
+}
 
 /* === Navbar === */
 .navId ul li a:hover{
@@ -136,7 +145,7 @@ i{
 	}
 	.col-custom .btn {
     font-size: 0.5rem;
-	}
+}
 	.col-custom p{
 		 font-size:.75rem;
 	}	
@@ -149,6 +158,11 @@ i{
 	}
 	#header .col-custom{
 	padding-top:65px;
+	}
+	
+	#header .col-custom .btn{
+		font-size:.110rem;
+	   padding:7px 15px;
 	}
 	
 	#copy-right{
