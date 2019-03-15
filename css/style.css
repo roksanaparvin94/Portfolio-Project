@@ -28,7 +28,7 @@ i{
     padding-top: 162px;
 	float:right;
 }
-#header .col-custom .mt-5, .my-5 {
+.mt-5, .my-5 {
     margin-top: 10rem!important;
 }
 /* === Navbar === */
