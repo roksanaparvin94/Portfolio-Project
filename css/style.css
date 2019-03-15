@@ -35,9 +35,6 @@ i{
     background-color:#0f1f2fcc!important;
 }
 
-.col-custom{
-	padding-top:150px;
-}
 /* === projects part === */
 #projects .card-img:hover{
     background-color:rgba(211,211,211,0.1);;
