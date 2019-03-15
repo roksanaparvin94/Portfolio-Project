@@ -10,6 +10,7 @@ i{
 	font-size:2.5rem;
 }
 
+
 /* === Header Part === */
 #header .content{
 	background:url('../images/background.jpg');
@@ -27,7 +28,9 @@ i{
     padding-top: 162px;
 	float:right;
 }
-
+#header .col-custom .mt-5, .my-5 {
+    margin-top: 10rem!important;
+}
 /* === Navbar === */
 .navId ul li a:hover{
 	background:black;
